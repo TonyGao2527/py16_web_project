@@ -1,0 +1,68 @@
+/* 登录页面输入框的样式修改 */
+.login_box .el-input__wrapper {
+	/* 去除默认的背景和边框阴影 */
+	background: none;
+	box-shadow: none;
+	border-radius: 0px;
+	/* 设下下边框先 */
+	border-bottom: solid 1px #006b9d;
+	font-size: 20px;
+
+}
+
+/* 修改登录页面输入框和开关文字的颜色 */
+.login_box .el-input__inner,
+.login_box .el-form-item__label {
+	color: #fff;
+}
+
+/* 登录表单校验失败时的样式 */
+.login_box .el-form-item.is-error .el-input__wrapper {
+	box-shadow: none;
+	border-bottom: solid 1px #ff0000;
+}
+
+
+/* 设置body元素的外边距为0 */
+body{
+	margin: 0;
+}
+/* 接口测试页面的标签页样式修改 */
+.list_box .el-tabs--border-card .el-tabs__content{
+	padding: 0;
+}
+
+/* 修改接口测试页面 element菜单组件的菜单项高度 */
+.list_box .el-sub-menu__title,
+.list_box .el-sub-menu .el-menu-item{
+	height: 35px;
+	line-height: 35px;
+}
+
+/*  */
+/* 数据列表样式设置 */
+.data_box {
+	box-shadow: 0 0 5px #00aa7f;
+}
+.data_box .title {
+	height: 40px;
+	text-align: center;
+	font: bold 20px/40px 'microsoft yahei';
+	border-bottom: solid 3px #878787;
+}
+/* 其他页面侧边列表数据样式 */
+.data_box .el-submenu__title,
+.data_box .el-submenu .el-menu-item{
+	height: 35px;
+	line-height: 35px;
+}
+
+/* 设置接口测试左侧的菜单选项卡 */
+.data_box .el-tabs__content {
+	padding: 0;
+}
+
+/*  */
+.el-scrollbar__wrap{
+  overflow-x: hidden;
+}
