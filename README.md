@@ -1,4 +1,3 @@
-# py13_web_project
 
 ## Project setup
 ```
